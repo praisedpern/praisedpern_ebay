@@ -7,7 +7,7 @@
 <div class="element" style="border-left: 1px solid #F4F6F7; border-right: 1px solid #F4F6F7; border-top: 1px solid #F4F6F7; color: #273C2C; border-bottom: 1px solid #F4F6F7; color: #273C2C; line-height: 45px">
 <div class="container" style="padding: 40px 0 40px 0">
 <div class="col-12 col-md-12">
-<h1 style="text-align: center"><font face="Arial">LilyGO TTGO T-Display ESP32 Module with 1.14 inch LCD, Wi-Fi and Bluetooth</font></h1>
+<h1 style="text-align: center"><font face="Arial">LilyGO TTGO LoRa32 T3 V2.1.6 ESP32 OLED 433MHz with Bluetooth, Wi-Fi and SD Card capability</font></h1>
 <hr align="center" style="background: #273C2C; height: 1px; width: 10%"></div>
 </div>
 </div>
@@ -17,17 +17,26 @@
 <div class="col-12 col-md-6" style="padding-bottom: 40px"><font face="Arial"><img alt="Product image" class="mx-auto d-block img-fluid" src="https://i.ebayimg.com/00/s/MTAwMFgxMDAw/z/mSsAAOSwJ9Ffpn0I/$_57.JPG?set_id=8800005007" style="width: 90%" title="Image"></font></div>
 <div class="col-12 col-md-6">
 <div typeof="Product" vocab="https://schema.org/">
+  <font face="Arial"><b>Features:</b></font>
+  <ul>
+    <li><font face="Arial">SX1278 LoRa modem for 433/470MHz communication</font></li>
+    <li><font face="Arial">Micro SD card slot</font></li>
+    <li><font face="Arial">0.96 inch OLED display</font></li>
+    <li><font face="Arial">Digital RSSI function</font></li>
+    <li><font face="Arial">Automatic frequency correction</font></li>
+    <li><font face="Arial">Automatic gain control</font></li>
+    <li><font face="Arial">Fast wake-up and frequency hopping</font></li>
+    <li><font face="Arial">Highly configurable data packet handler</font></li>
+    <li><font face="Arial">SMA antenna</font></li>
+    <li><font face="Arial">On-board TP4054 Li-ion battery charging</font></li>
+  </ul>
 <font face="Arial"><b>In the box:</b></font>
 <ul>
-<li><font face="Arial"><span property="description">1x LilyGO TTGO T-Display board</span></font></li>
-<li><font face="Arial"><span property="description">2x 12 pin male headers</span></font></li>
+<li><font face="Arial"><span property="description">1x LilyGO TTGO Lora32 OLED board</span></font></li>
+<li><font face="Arial"><span property="description">2x 13 pin male headers</span></font></li>
 <li><font face="Arial"><span property="description">1x 2 pin 1.25mm JST connector with wires (for connectin to a 3.7v rechargeable lithium battery</span></font></li>
-</ul>
-<font face="Arial"><b>Usage examples:</b></font>
-<ul>
-<li><font face="Arial"><span property="description">Communicate between a PC and a microcontroller that doesn't have USB (ie Microchip PIC)</span></font></li>
-<li><font face="Arial"><span property="description">Upload a sketch to an Arduino without a USB port (ie Pro Mini)</span></font></li>
-<li><font face="Arial">Flash custom firmware like OpenWRT onto a wireless router</font></li>
+<li><font face="Arial"><span property="description">1x SMA antenna</span></font></li>
+
 </ul>
 </div>
 </div>
@@ -40,25 +49,48 @@
 <h2 style="color: #35C88A; line-height: 45px"><font face="Arial">Hardware Specification</font></h2>
 <hr align="left" style="background: #35C88A; height: 1px; width: 10%">&nbsp;
 <ul style="color: #273C2C; line-height: 25px; margin-top: 30px">
-<li><font face="Arial"><b>Chipset:</b> ESPRESSIF-ESP32 240MHz Xtensa® single-/dual-core 32-bit LX6 microprocessor</font></li>
-<li><font face="Arial"><b>SRAM:</b> 520kB SRAM</font></li>
-<li><font face="Arial"><b>Button:</b> Reset</font></li>
-<li><font face="Arial"><b>USB to TTL:</b> CP2104</font></li>
-<li><font face="Arial"><b>Modular interface:</b> UART, SPI, SDIO, I2C, LED PWM, TV PWM, I2S, IRGPIO, ADC, capacitor touch sensor, DACLNA pre-amplifier</font></li>
-<li><font face="Arial"><b>Display:</b> IPS ST7789V 1.14 inch</font></li>
-<li><font face="Arial"><b>Working voltage:</b> 2.7-4.2V</font></li>
-<li><font face="Arial"><b>Working current:</b> about 67mA</font></li>
-<li><font face="Arial"><b>Sleep current:</b> about 350uA</font></li>
-<li><font face="Arial"><b>Working temperature range:</b> 	-40℃ ~ +85℃</font></li>
-<li><font face="Arial"><b>Size & weight:</b> 51.52x25.04x8.54mm (7.81g)</font></li>
+<li><font face="Arial"><b>Working voltage:</b> 1.7-3.7v</font></li>
+<li><font face="Arial"><b>Acceptable current:</b> 10-14mA</font></li>
+<li><font face="Arial"><b>Transmit current:</b> </font></li>
+  <ul>
+   <li><font face="Arial">120mA @ +20dBm</font></li>
+   <li><font face="Arial">90mA @ +17dBm</font></li>  
+   <li><font face="Arial">29mA @ +13dBm</font></li>
+  </ul>
+<li><font face="Arial"><b>Operating frequency:</b> 433/470MHz</font></li>
+<li><font face="Arial"><b>Receive sensitivity:</b></font></li>
+  <ul>
+  <li><font face="Arial">139dBm@LoRa &62.5Khz&SF=12&146bps</font></li>
+  <li><font face="Arial">118dBm@LoRa &125Khz&SF=6&9380bps</font></li>
+  <li><font face="Arial">123dBm@FSK&5Khz&1.2Kbps</font></li>
 </ul>
+<li><font face="Arial"><b>Frequency error:</b> +/-15KHz</font></li>
+<li><font face="Arial"><b>FIFO space:</b> 64 bytes</font></li>
+<li><font face="Arial"><b>Data rate:</b></font></li>
+  <ul>
+    <li><font face="Arial">1.2-300Kbps@FSK</font></li>
+  <li><font face="Arial">0.018-37.5Kbps@LoRa</font></li>
+  </ul>
+<li><font face="Arial"><b>Modulation mode:</b> FSK, GFSK, MSK, GMSK, LoRa TM，OOK</font></li>
+<li><font face="Arial"><b>Interface form:</b> SPI</font></li>
+<li><font face="Arial"><b>Sleep current:</b></font></li>
+  <ul>
+    <li><font face="Arial"> 0.2uA@SLEEP</font></li>
+    <li><font face="Arial">1.5uA@IDLE</font></li>
+  </ul>
+<li><font face="Arial"><b>Operating temperature:</b> -40℃- +85℃</font></li>
+<li><font face="Arial"><b>Size:</b> 27x64.47mm (2.54mm/0.1 inch pin pitch)</font></li>
+</ul>
+
+
+
 <font face="Arial"><b>Power supply specifications</b></font>
 <ul style="color: #273C2C; line-height: 25px; margin-top: 10px; margin-bottom: 30px">
 <li><font face="Arial"><b>Power supply:</b> USB 5V/1A</font></li>
 <li><font face="Arial"><b>Charging current:</b> 500mA</font></li>
 <li><font face="Arial"><b>Battery:</b> On-board 3.7V lithium battery charging capability</font></li>
 <li><font face="Arial"><b>JST connector:</b> 2Pin 1.25mm</font></li>
-<li><font face="Arial"><b>USB:</b> Type-C</font></li>
+<li><font face="Arial"><b>USB:</b> Micro-B port</font></li>
 </ul>
 <font face="Arial"><b>Wi-Fi</b></font>
 <ul style="color: #273C2C; line-height: 25px; margin-top: 10px; margin-bottom: 30px">
