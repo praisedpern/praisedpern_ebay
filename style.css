@@ -1,25 +1,56 @@
-body {
+/* #description {
     display: grid;
     height: 100vh;
     grid-template-rows: auto 1fr auto;
-  }
-  
-  
-  
-  header {
-    background: lightpink;
+    font-family: system-ui, san-serif;
+    margin: 5px;
+} */
+#ebayDescription {
+    font: 12px;
+    background-color: floralwhite;
+}
+
+header {
+    background-image: linear-gradient(lightsteelblue, lightslategrey);
+    border-radius: 15px;
+    color: white;
+    text-shadow: 2px 1px darkslategrey;
+    margin: 0px 8px;
+}
+
+main {
+/*    background: lightsteelblue; */
     padding: 2rem;
-  }
-  
-  main {
-    background: coral;
-  }
-  
-  footer {
-    background: wheat;
-    padding: 2rem;
-  }
-  
-  body {
-    font-family: system-ui, sans-serif;
-  }
+}
+
+footer {
+    background-image: linear-gradient(lightsteelblue, lightslategrey);
+    border-radius: 15px;
+    color: azure;
+    position: relative;
+    top: -15px;
+    margin: 0px 8px;
+}
+
+#signature {
+/*    background: lightseagreen;
+    padding: 2rem; */
+}
+
+h1, h2, h4 {
+    text-align: center;
+    font-family: 'Exo', 'Open Sans', 'Arial', sans-serif;
+    font-weight: lighter;
+}
+
+p, ul {
+    padding-bottom: 15px;
+}
+
+header, footer {
+    padding: 1px 15px 15px 15px;
+}
+
+td {
+    padding: 5px 10px 10px 30px;
+}
